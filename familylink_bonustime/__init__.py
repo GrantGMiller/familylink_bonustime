@@ -29,7 +29,7 @@ from typing import Any, Dict, List, Optional
 
 import httpx
 
-from familylink_w_bonustime import helper
+from familylink_bonustime import helper
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -586,4 +586,4 @@ if __name__ == "__main__":
         childs_dev_names = fl.get_device_names(child['name'])
         print(f"Devices for {child['name']}:", childs_dev_names)
 
-        fl.add_bonus_time("Linden Miller", "Linden Chromebook", 5, True)
+        # fl.add_bonus_time("Linden Miller", "Linden Chromebook", 5, True)

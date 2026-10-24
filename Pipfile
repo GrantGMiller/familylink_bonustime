@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 httpx = "*"
+buildtwine = "*"
+build = "*"
+twine = "*"
 
 [dev-packages]
+build = "*"
+twine = "*"
 
 [requires]
 python_version = "3.8"
